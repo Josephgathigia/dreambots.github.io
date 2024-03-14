@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(59, 130, 146);
+}
+header {
+    background-color: rgb(24, 24, 122);
+    color: #ffffff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f90606;
+    text-decoration: underline;
+    color: red;
+}
+
+h2 {
+    color: rgb(47, 47, 255);
+}
+
+body {
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+
+.button {
+    background-color: #09f611;
+    color: blue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    width: 200px;
+}
+
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.button a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+}
+
+body {
+    margin: auto;
+    padding: auto;
+    font-family: Arial, sans-serif;
+    background-color: rgb(161, 67, 155);
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    background-color:  rgb(59, 130, 146);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(251, 8, 251);
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.signup-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.signup-link a {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+.register-form {
+    text-align: center;
+}
+
+.register-form h2 {
+    margin-bottom: 20px;
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"],
+.register-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.register-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.register-form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+section {
+    padding: 10px;
+    width: 80%;
+    margin: 50px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color:rgb(214, 79, 214);
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+} 
+}
+
+.container {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 2px solid white;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
+        .box {
+            max-width: 800px;
+            height: 200px;
+            background-color: rgb(211, 162, 71);
+            border: 2px solid white; 
+            border-radius: 10px;
+            padding: 20px;
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+
+        footer {
+            background-color: black;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: 0;
+            bottom: 0;
+            width: 100%;
+            margin-right: 200px;
+        }
+        
+
